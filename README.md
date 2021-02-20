@@ -30,15 +30,16 @@ git clone git@github.com:SathvikTS-Official/Cpp-Route-Planning-Project.git --rec
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
   * Example of CMake execution
-
-	cd thirdparty
-	git clone --recurse-submodules https://github.com/cpp-io2d/P0267_RefImpl
-	cd P0267_RefImpl
-	mkdir Debug
-	cd Debug
-	cmake --config Debug "-DCMAKE_BUILD_TYPE=Debug" ..
-	cmake --build .
-	make install
+	```
+		cd thirdparty
+		git clone --recurse-submodules https://github.com/cpp-io2d/P0267_RefImpl
+		cd P0267_RefImpl
+		mkdir Debug
+		cd Debug
+		cmake --config Debug "-DCMAKE_BUILD_TYPE=Debug" ..
+		cmake --build .
+		make install
+	```
 
 ## Compiling and Running
 
