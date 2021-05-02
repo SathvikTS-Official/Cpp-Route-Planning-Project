@@ -1,6 +1,6 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+Route Planning Project - A course project in C++ using real open street map data and A* search to find a path between two points.
 
 <img src="map.png" width="600" height="450" />
 
